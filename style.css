@@ -1,0 +1,17 @@
+/* Flex Box */
+.flexbox-container {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-evenly;
+}
+.flexbox-item {
+  background: lightcoral;
+  width: 200px;
+  height: 150px;
+  color: white;
+  font-size: 3rem;
+  text-align: center;
+  line-height: 150px;
+  margin: 10px;
+}
+/* End Flex Box */
