@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calc</title>
+    <style>
+        :root {
+            --hue: 270;
+        }
+
+        body {
+            margin: 0;
+            padding: 0;
+        }
+
+        .container {
+            background-color: lightgreen;
+            height: 200px;
+            width: calc(100% - 60px);
+            margin: 0 auto;
+        }
+
+        .primary {
+            background-color: hsl(var(--hue), 80%, 25%);
+        }
+
+        .secondary {
+            background-color: hsl(calc(var(--hue) - 180), 80%, 25%);
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container"></div>
+    <br><br>
+    <button class="primary">Click Me</button>
+    <br><br>
+    <button class="secondary">Buy Now</button>
+</body>
+
+</html>
